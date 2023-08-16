@@ -5,11 +5,11 @@
 }
 
 .main-section-button{
-    background-color: #f61524;
+    background-color: #f61524 !important;
 }
 
 .main-section-button:hover{
-    background-color: #d00815;
+    background-color: #d00815 !important;
 }
 
 .main-section__image{

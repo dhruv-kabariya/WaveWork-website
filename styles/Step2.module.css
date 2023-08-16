@@ -5,11 +5,11 @@
 }
 
 .step2-section-button{
-    background-color: #f61524;
+    background-color: #f61524 !important;
 }
 
 .step2-section-button:hover{
-    background-color: #d00815;
+    background-color: #d00815 !important;
 }
 
 .step2-section__image{

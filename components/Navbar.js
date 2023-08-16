@@ -38,7 +38,7 @@ export default function Navbar() {
 
         <AppBar position="fixed" color="inherit">
             <Container maxWidth="xl">
-                <Toolbar disableGutters>
+                <Toolbar disableGutters sx={{width: '100%'}}>
                     <Box component={"img"} src="logo-icon.png" width={50} height={50} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}></Box>
                     <Typography
                         variant="h6"
@@ -58,7 +58,7 @@ export default function Navbar() {
                         REPAIR-MAN
                     </Typography>
 
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                    {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -93,7 +93,7 @@ export default function Navbar() {
                                 </MenuItem></Link>
                             ))}
                         </Menu>
-                    </Box>
+                    </Box> */}
                     <Box component={"img"} src="logo-icon.png" width={30} height={30} sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }}></Box>
                     <Typography
                         variant="h6"
@@ -113,7 +113,7 @@ export default function Navbar() {
                     >
                         REPAIR-MAN
                     </Typography>
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                    {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
                             <Link style={{textDecoration: "none"}} key={page} href={`#${page}`}> <Button
                                 
@@ -123,10 +123,10 @@ export default function Navbar() {
                                 {page}
                             </Button></Link>
                         ))}
-                    </Box>
+                    </Box> */}
 
-                    <Box sx={{ flexGrow: 0 }}>
-                        <Button className={`${styles['nav-button']}`} variant="contained" color="secondary">Get App</Button>
+                    <Box sx={{ flexGrow: 1 }}>
+                        <Button className={`${styles['nav-button']}`} sx={{alignSelf: "flex-end", float: "right"}} variant="contained" color="secondary">Get App</Button>
                     </Box>
                 </Toolbar>
             </Container>
