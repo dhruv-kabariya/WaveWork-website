@@ -1,0 +1,25 @@
+.main-section{
+    padding-top: 85px;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.main-section-button{
+    background-color: #f61524;
+}
+
+.main-section-button:hover{
+    background-color: #d00815;
+}
+
+.main-section__image{
+    width: 800px;
+    height: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .main-section__image{
+        width: 500px;
+        height: auto;
+    }
+}

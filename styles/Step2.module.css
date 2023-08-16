@@ -1,0 +1,31 @@
+.step2-section{
+    padding-top: 85px;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.step2-section-button{
+    background-color: #f61524;
+}
+
+.step2-section-button:hover{
+    background-color: #d00815;
+}
+
+.step2-section__image{
+    width: 300px;
+    height: auto;
+}
+
+@media screen and (max-width: 580px) {
+    .step2-section__image{
+        width: auto;
+        height: 400px !important;
+    }
+    .step2-section-writing > h1 {
+        font-size: 36px;
+    }
+    .step2-section-writing > p {
+        font-size: 18px;
+    }
+}
