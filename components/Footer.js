@@ -26,17 +26,11 @@ export default function Footer() {
             <Box component={'div'} sx={{display:"flex", flexDirection: {xs: "row", md: "column"}, rowGap: "0.8rem", columnGap: "0.8rem"}}>
                 <Typography component={'p'} variant="body3">Home</Typography>
                 <Typography component={'p'} variant="body3">About Us</Typography>
-                <Typography component={'p'} variant="body3">Safety</Typography>
-                <Typography component={'p'} variant="body3">Careers</Typography>
-                <Typography component={'p'} variant="body3">Blog</Typography>
                 <Typography component={'p'} variant="body3">Privacy Policy</Typography>
             </Box>
             <Box component={'div'} sx={{display:"flex", flexDirection: {xs: "row", md: "column"}, rowGap: "0.8rem", columnGap: "0.8rem"}}>
                 <Typography component={'p'} variant="body3">Customer Terms</Typography>
-                <Typography component={'p'} variant="body3">Customer Terms-Cabs</Typography>
-                <Typography component={'p'} variant="body3">Captain Terms</Typography>
-                <Typography component={'p'} variant="body3">Captain Terms-cabs</Typography>
-                <Typography component={'p'} variant="body3">Press</Typography>
+                <Typography component={'p'} variant="body3">Partner Terms</Typography>
             </Box>
             <Box component={'div'} sx={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", rowGap: "1rem" }}>
                 <Typography 
