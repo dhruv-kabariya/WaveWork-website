@@ -126,7 +126,7 @@ export default function Navbar() {
                     </Box> */}
 
                     <Box sx={{ flexGrow: 1 }}>
-                        <Button className={`${styles['nav-button']}`} sx={{alignSelf: "flex-end", float: "right"}} variant="contained" color="secondary">Get App</Button>
+                        <Button className={`${styles['nav-button']}`} sx={{alignSelf: "flex-end", float: "right"}} variant="contained">Get App</Button>
                     </Box>
                 </Toolbar>
             </Container>

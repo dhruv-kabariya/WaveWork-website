@@ -6,6 +6,7 @@ import MainSection from '@/components/MainSection'
 import Step1Function from '@/components/Step1Section'
 import Step2Function from '@/components/Step2Section'
 import Step3Function from '@/components/Step3Section'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Step1Function />
       <Step2Function />
       <Step3Function />
+      <Footer />
       </div>
     </>
   )
