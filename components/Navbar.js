@@ -126,7 +126,7 @@ export default function Navbar() {
                     </Box> */}
 
                     <Box sx={{ flexGrow: 1 }}>
-                        <Button className={`${styles['nav-button']}`} sx={{alignSelf: "flex-end", float: "right"}} variant="contained">Get App</Button>
+                        <Button sx={{alignSelf: "flex-end", float: "right", backgroundColor: "#f61524", color: "white"}} onMouseLeave={(e) => e.target.style.backgroundColor = "#f61524"} onMouseEnter={(e) => e.target.style.backgroundColor = "#d00815"} variant="contained">Get App</Button>
                     </Box>
                 </Toolbar>
             </Container>
