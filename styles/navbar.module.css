@@ -24,3 +24,10 @@
 .nav-button:hover{
     background-color: #d00815;
 }
+
+@media screen and (max-width: 400px) {
+    .nav-button{
+        padding: 0.2rem !important;
+        font-size: 12px;
+    }
+}

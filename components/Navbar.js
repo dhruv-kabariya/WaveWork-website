@@ -50,8 +50,9 @@ export default function Navbar() {
                             display: { xs: 'none', md: 'flex' },
                             fontFamily: 'monospace',
                             fontWeight: 700,
+                            fontSize: {xs: "1rem"},
                             letterSpacing: '.3rem',
-                            color: 'inherit',
+                            color: 'black',
                             textDecoration: 'none',
                         }}
                     >
@@ -106,8 +107,9 @@ export default function Navbar() {
                             flexGrow: 1,
                             fontFamily: 'monospace',
                             fontWeight: 400,
+                            fontSize: {xs: "1rem"},
                             letterSpacing: {xs: '.1rem', md: ".3rem"},
-                            color: 'inherit',
+                            color: 'black',
                             textDecoration: 'none',
                         }}
                     >
@@ -126,7 +128,7 @@ export default function Navbar() {
                     </Box> */}
 
                     <Box sx={{ flexGrow: 1 }}>
-                        <Button sx={{alignSelf: "flex-end", float: "right", backgroundColor: "#f61524", color: "white"}} onMouseLeave={(e) => e.target.style.backgroundColor = "#f61524"} onMouseEnter={(e) => e.target.style.backgroundColor = "#d00815"} variant="contained">Get App</Button>
+                        <Button sx={{alignSelf: "flex-end", float: "right", backgroundColor: "#f61524", color: "white"}} className={`${styles['nav-button']}`} onMouseLeave={(e) => e.target.style.backgroundColor = "#f61524"} onMouseEnter={(e) => e.target.style.backgroundColor = "#d00815"} variant="contained">Get App</Button>
                     </Box>
                 </Toolbar>
             </Container>

@@ -28,4 +28,7 @@
     .step3-section-writing > p {
         font-size: 18px;
     }
+    .step3-section-button{
+        transform: scale(0.7);
+    }
 }
