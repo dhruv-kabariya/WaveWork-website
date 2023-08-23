@@ -4,6 +4,7 @@ import AppStoreSVG from "../public/appstore.svg"
 import PlayStoreSVG from "../public/playstore.svg"
 import Image from "next/image";
 import { FacebookSharp, Instagram, LinkedIn, Twitter } from "@mui/icons-material";
+import Link from "next/link";
 
 export default function Footer() {
     return (
@@ -26,7 +27,7 @@ export default function Footer() {
             <Box component={'div'} sx={{display:"flex", flexDirection: {xs: "row", md: "column"}, rowGap: "0.8rem", columnGap: "0.8rem"}}>
                 <Typography component={'p'} variant="body3">Home</Typography>
                 <Typography component={'p'} variant="body3">About Us</Typography>
-                <Typography component={'p'} variant="body3">Privacy Policy</Typography>
+                <Link href={"/privacy-policy"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Privacy Policy</Typography></Link>
             </Box>
             <Box component={'div'} sx={{display:"flex", flexDirection: {xs: "row", md: "column"}, rowGap: "0.8rem", columnGap: "0.8rem"}}>
                 <Typography component={'p'} variant="body3">Customer Terms</Typography>

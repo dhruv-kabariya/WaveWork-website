@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/Navbar'
 import MainSection from '@/components/MainSection'
 import Step1Function from '@/components/Step1Section'
 import Step2Function from '@/components/Step2Section'
@@ -19,7 +17,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
       <div className='d-flex flex-column'>
       <MainSection />
       <Step1Function />

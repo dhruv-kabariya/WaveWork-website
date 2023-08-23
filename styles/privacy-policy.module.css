@@ -1,0 +1,23 @@
+/* styles.module.css */
+.title {
+    font-size: 26px;
+  }
+  
+  .subtitle {
+    color: rgb(127, 127, 127);
+    font-size: 15px;
+  }
+  
+  .bodyText {
+    color: rgb(89, 89, 89);
+    font-size: 15px;
+  }
+  
+  .grayText {
+    color: rgb(127, 127, 127);
+  }
+  
+  .container {
+    line-height: 1.5;
+  }
+  
