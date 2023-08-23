@@ -11,18 +11,18 @@ export default function Footer() {
         <Box component={'div'} sx={{background: "black", color: "white",  flexDirection: {xs: 'column', md: 'row'}, columnGap: "1rem", rowGap: '1rem', justifyContent: "space-evenly", alignItems: {xs: "center", md: "flex-start"}}} className="d-flex py-5">
             <Box component={'div'} sx={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", rowGap: "1rem" }}>
                 <Typography 
-                    variant="h5"
+                    variant={"h5"}
                     component={'body1'}
                 >Customer App</Typography>
-                <Image src={PlayStoreSVG} width={150} />
-                <Image src={AppStoreSVG} width={150} />
+                <Image src={PlayStoreSVG} alt="customer palystore-app link" width={150} />
+                <Image src={AppStoreSVG} alt="customer app-store link" width={150} />
             </Box>
             <Box component={'div'} sx={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", rowGap: "1rem" }}>
                 <Typography 
                     variant="h5"
                     component={'body1'}
                 >Captain App</Typography>
-                <Image src={PlayStoreSVG} width={150} />
+                <Image src={PlayStoreSVG} alt="customer palystore-app link" width={150} />
             </Box>
             <Box component={'div'} sx={{display:"flex", flexDirection: {xs: "row", md: "column"}, rowGap: "0.8rem", columnGap: "0.8rem"}}>
                 <Typography component={'p'} variant="body3">Home</Typography>

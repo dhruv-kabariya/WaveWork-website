@@ -9,9 +9,9 @@ export default function PrivacyPolicy() {
                                                                                                         
   return (
     <Box component={"div"} className="mx-auto mb-5 col-lg-8 col-md-10 col-12 px-1 d-flex flex-column" sx={{ marginTop: "85px" }}>
-      <Typography variant="h2" component={"h1"} className="mx-auto" sx={{ fontWeight: "bold", fontSize: {xs: "1.5                                                                                                                                                                   rem", md: "3rem"} }}>PRIVACY POLICY</Typography>
+      <Typography variant="h2" component={"h1"} className="mx-auto" sx={{ fontWeight: "bold", fontSize: {xs: "1.5rem", md: "3rem"} }}>PRIVACY POLICY</Typography>
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">
-        This privacy notice for Repair Men (<strong>"we," "us," or "our"</strong>), describes how and why we might collect, store, use, and/or share (<strong>"process"</strong>) your information when you use our services (<strong>"Services"</strong>), such as when you:
+        This privacy notice for Repair Men (<strong>&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;</strong>), describes how and why we might collect, store, use, and/or share (<strong>&quot;process&quot;</strong>) your information when you use our services (<strong>&quot;Services&quot;</strong>), such as when you:
       </Typography>
       <ul style={{ ...basicStyle }} className="mt-2 ms-3">
         <li>
@@ -119,9 +119,9 @@ export default function PrivacyPolicy() {
       </Typography>
 
       <ul style={{ ...basicStyle }} className="ms-3">
-        <li className="mt-3"><i>Geolocation Information.</i> We may request access or permission to track location-based information from your mobile device, either continuously or while you are using our mobile application(s), to provide certain location-based services. If you wish to change our access or permissions, you may do so in your device's settings.</li>
+        <li className="mt-3"><i>Geolocation Information.</i> We may request access or permission to track location-based information from your mobile device, either continuously or while you are using our mobile application(s), to provide certain location-based services. If you wish to change our access or permissions, you may do so in your device&apos;s settings.</li>
         <li className="mt-3"><i>Mobile Device Data.</i> We automatically collect device information (such as your mobile device ID, model, and manufacturer), operating system, version information and system configuration information, device and application identification numbers, browser type and version, hardware model Internet service provider and/or mobile carrier, and Internet Protocol (IP) address (or proxy server). If you are using our application(s), we may also collect information about the phone network associated with your mobile device, your mobile device’s operating system or platform, the type of mobile device you use, your mobile device’s unique device ID, and information about the features of our application(s) you accessed.</li>
-        <li className="mt-3"><i>Push Notifications.</i> We may request to send you push notifications regarding your account or certain features of the application(s). If you wish to opt out from receiving these types of communications, you may turn them off in your device's settings.</li>
+        <li className="mt-3"><i>Push Notifications.</i> We may request to send you push notifications regarding your account or certain features of the application(s). If you wish to opt out from receiving these types of communications, you may turn them off in your device&apos;s settings.</li>
       </ul>
 
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">This information is primarily needed to maintain the security and operation of our application(s), for troubleshooting, and for our internal analytics and reporting purposes.</Typography>
@@ -161,7 +161,7 @@ export default function PrivacyPolicy() {
 
       <ul style={{ ...basicStyle }} className="ms-3">
         <li className="mt-3"><strong>Business Transfers.</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
-        <li className="mt-3"><strong>When we use Google Maps Platform APIs.</strong>  We may share your information with certain Google Maps Platform APIs (e.g., Google Maps API, Places API). We obtain and store on your device ("cache") your location. You may revoke your consent anytime by contacting us at the contact details provided at the end of this document.</li>
+        <li className="mt-3"><strong>When we use Google Maps Platform APIs.</strong>  We may share your information with certain Google Maps Platform APIs (e.g., Google Maps API, Places API). We obtain and store on your device (&quot;cache&quot;) your location. You may revoke your consent anytime by contacting us at the contact details provided at the end of this document.</li>
       </ul>
 
       <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600" }} id="cookies">4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</Typography>
@@ -225,7 +225,7 @@ infominors">7. DO WE COLLECT INFORMATION FROM MINORS?</Typography>
       </Typography>
 
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
-        <strong><u>Withdrawing your consent:</u></strong> If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section <Link href={"#contact"}>"HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"</Link> below.
+        <strong><u>Withdrawing your consent:</u></strong> If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section <Link href={"#contact"}>&quot;HOW CAN YOU CONTACT US ABOUT THIS NOTICE?&quot;</Link> below.
       </Typography>
 
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
@@ -250,7 +250,7 @@ infominors">7. DO WE COLLECT INFORMATION FROM MINORS?</Typography>
       <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600" }} id="DNT">9. CONTROLS FOR DO-NOT-TRACK FEATURES</Typography>
 
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
-      Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track ("DNT") feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.
+      Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (&quot;DNT&quot;) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. At this stage no uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy notice.
       </Typography>
 
       <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600" }} id="carsidents">10. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</Typography>
@@ -260,7 +260,7 @@ infominors">7. DO WE COLLECT INFORMATION FROM MINORS?</Typography>
       </Typography>
 
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
-      California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.
+      California Civil Code Section 1798.83, also known as the &quot;Shine The Light&quot; law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.
       </Typography>
 
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
@@ -274,7 +274,7 @@ infominors">7. DO WE COLLECT INFORMATION FROM MINORS?</Typography>
       </Typography>
 
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
-      We may update this privacy notice from time to time. The updated version will be indicated by an updated "Revised" date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
+      We may update this privacy notice from time to time. The updated version will be indicated by an updated &quot;Revised&quot; date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
       </Typography>
 
       <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600" }} id="contact">12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</Typography>
