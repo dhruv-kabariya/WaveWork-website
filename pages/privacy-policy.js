@@ -54,7 +54,7 @@ export default function PrivacyPolicy() {
 
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
         <strong>How do we keep your information safe?</strong> We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about<Link href={"#infosafe"}>how we keep your information safe</Link>.
-  #infominors   </Typography>
+      </Typography>
 
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
         <strong>What are your rights?</strong> Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about<Link href={"#privacyrights"}>your privacy rights</Link>.
@@ -188,7 +188,7 @@ export default function PrivacyPolicy() {
         When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize such information, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.
       </Typography>
 
-      <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600" }} id="infosafe">6. HOW DO WE KEEP YOUR INFORMATION #infominorsAFE?</Typography>
+      <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600" }} id="infosafe">6. HOW DO WE KEEP YOUR INFORMATION SAFE?</Typography>
 
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
         <strong><i>In Short.</i></strong> We aim to protect your personal information through a system of organizational and technical security measures.
@@ -198,9 +198,7 @@ export default function PrivacyPolicy() {
         We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.
       </Typography>
 
-      <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600" }} id="infominors
-infominors
-infominors">7. DO WE COLLECT INFORMATION FROM MINORS?</Typography>
+      <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600" }} id="infominors">7. DO WE COLLECT INFORMATION FROM MINORS?</Typography>
 
       <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
         <strong><i>In Short.</i></strong> We do not knowingly collect data from or market to children under 18 years of age.
