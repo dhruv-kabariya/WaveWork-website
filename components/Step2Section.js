@@ -13,7 +13,7 @@ export default function Step2Function() {
                         Get Quotations for your work
                     </Typography>
                     <Typography variant="h6" component="p" className={`mt-3`}>
-                    Crafting perfection is in the details. Fill in your task specifics, fuel your requirements with precision, and seal it with 'Get Quotation'.
+                    Crafting perfection is in the details. Fill in your task specifics, fuel your requirements with precision, and seal it with &apos;Get Quotation&apos;.
                     </Typography>
                 </Box>
                 

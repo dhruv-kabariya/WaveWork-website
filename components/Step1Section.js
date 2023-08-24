@@ -15,7 +15,7 @@ export default function Step1Function() {
                         Post your work requirement
                     </Typography>
                     <Typography variant="h6" component="p" className={`mt-3`}>
-                    Select a service category from the options available, and you're on your way to receiving bids from local service providers. It's as simple as that.
+                    Select a service category from the options available, and you&apos;re on your way to receiving bids from local service providers. It&apos;s as simple as that.
                     </Typography>
                 </Box>
                 
