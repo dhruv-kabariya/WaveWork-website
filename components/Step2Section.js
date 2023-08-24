@@ -10,16 +10,15 @@ export default function Step2Function() {
 
                 <Box component={'div'} className={`${styles['step2-section-writing']}`} sx={{display: "flex", flexDirection: "column", alignItems: "center", maxWidth: {xs: "75%", md: "30%"}}}>
                     <Typography variant="h2" component="h1">
-                        India’s largest bike taxi service
+                        Get Quotations for your work
                     </Typography>
                     <Typography variant="h6" component="p" className={`mt-3`}>
-                        Rapido is India’s first and fastest-growing Bike taxi app with a whopping 25 Million+ app downloads. We are now running operations in more than 100 cities.
+                    Crafting perfection is in the details. Fill in your task specifics, fuel your requirements with precision, and seal it with 'Get Quotation'.
                     </Typography>
-                    <Button variant="contained" size="large" className={`mx-auto mt-3 ${styles['step2-section-button']}`}>Get App</Button>
                 </Box>
                 
                 <Box component={'div'} sx={{maxWidth: {xs: "100%", md: "50%"}, display: "flex", justifyContent: "center", alignItems: "center"}}>
-                    <img src={"/step1.jpeg"} alt="step2-image" className={`${styles['step2-section__image']}`}/>
+                    <img src={"/step2.png"} alt="step2-image" className={`${styles['step2-section__image']}`}/>
                 </Box>
             </Box>
         </section>
