@@ -30,8 +30,8 @@ export default function Footer() {
                 <Link href={"/privacy-policy"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Privacy Policy</Typography></Link>
             </Box>
             <Box component={'div'} sx={{display:"flex", flexDirection: {xs: "row", md: "column"}, rowGap: "0.8rem", columnGap: "0.8rem"}}>
-                <Typography component={'p'} variant="body3">Customer Terms</Typography>
-                <Typography component={'p'} variant="body3">Partner Terms</Typography>
+                <Link href={"/customer-terms"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Customer Terms</Typography></Link>
+                <Link href={"/partner-terms"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Partner Terms</Typography></Link>
             </Box>
             <Box component={'div'} sx={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", rowGap: "1rem" }}>
                 <Typography 
