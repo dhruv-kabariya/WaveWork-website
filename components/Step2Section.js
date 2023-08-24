@@ -5,7 +5,7 @@ import { Box, Button, Typography } from "@mui/material"
 export default function Step2Function() {
     return (
         <section id="Step-2" className={`${styles['step2-section']}`}>
-            <Box component={'div'} sx={{display: "flex", minHeight: "100vh", flexDirection: {xs: 'column', md: 'row'}, justifyContent: {xs: "center", md: "space-evenly"}, alignItems: "center", columnGap: {xs: "0rem", md: "2rem"}, rowGap: {xs: "1rem", md: "0rem"}}}>
+            <Box component={'div'} sx={{display: "flex", minHeight: "100vh", flexDirection: {xs: 'column', md: 'row'}, justifyContent: {xs: "center", md: "space-evenly"}, alignItems: "center", columnGap: {xs: "0rem", md: "2rem"}, rowGap: {xs: "5rem", md: "0rem"}}}>
                 
 
                 <Box component={'div'} className={`${styles['step2-section-writing']}`} sx={{display: "flex", flexDirection: "column", alignItems: "center", maxWidth: {xs: "75%", md: "30%"}}}>

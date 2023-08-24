@@ -1,5 +1,5 @@
 .step3-section{
-    /* padding-top: 85px; */
+    padding-top: 85px;
     min-height: 100vh;
     width: 100vw;
 }
@@ -13,7 +13,7 @@
 }
 
 .step3-section__image{
-    width: 750px;
+    width: 35vw;
     height: auto;
     border-radius: 15px;
 }
@@ -21,21 +21,13 @@
 @media screen and (max-width: 820px) {
     .step3-section__image{
         width: auto;
-        height: 600px !important;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .step3-section__image{
-        width: auto;
-        height: 500px !important;
+        height: 80vw !important;
     }
 }
 
 @media screen and (max-width: 580px) {
     .step3-section__image{
         width: auto;
-        height: 450px !important;
     }
     .step3-section-writing > h1 {
         font-size: 36px;
@@ -45,19 +37,5 @@
     }
     .step3-section-button{
         transform: scale(0.7);
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .step3-section__image{
-        width: auto;
-        height: 340px !important;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .step3-section__image{
-        width: auto;
-        height: 220px !important;
     }
 }
