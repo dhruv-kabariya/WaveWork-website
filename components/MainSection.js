@@ -14,7 +14,7 @@ export default function MainSection() {
                     <Typography variant="h6" component="p" className={`${styles['main-section-writing']} mt-3`}>
                     Transforming Household Solutions: Connect with nearby service providers for chores. Compare bids, pick your expert, and accomplish tasks efficiently. Your trusted platform for streamlined home services.
                     </Typography>
-                    <Button variant="contained" size="large" className={`mx-auto mt-5 ${styles['main-section-button']}`}>Get App</Button>
+                    <Button variant="contained" size="large" className={`mx-auto mt-5 ${styles['main-section-button']}`} disabled>Comming Soon</Button>
                 </Box>
                 <Box component={'div'} sx={{maxWidth: {xs: "100%", md: "50%"}, display: "flex", justifyContent: "center", alignItems: "center"}}>
                     <Image src={MainSectionSVG} alt="hero-image" className={`${styles['main-section__image']}`}/>

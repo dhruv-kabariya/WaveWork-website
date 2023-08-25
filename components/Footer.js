@@ -25,8 +25,8 @@ export default function Footer() {
                 <Image src={PlayStoreSVG} alt="customer palystore-app link" width={150} />
             </Box>
             <Box component={'div'} sx={{display:"flex", flexDirection: {xs: "row", md: "column"}, rowGap: "0.8rem", columnGap: "0.8rem"}}>
-                <Typography component={'p'} variant="body3">Home</Typography>
-                <Typography component={'p'} variant="body3">About Us</Typography>
+            <Link href={"/"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Home</Typography></Link>
+                {/* <Typography component={'p'} variant="body3">About Us</Typography> */}
                 <Link href={"/privacy-policy"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Privacy Policy</Typography></Link>
             </Box>
             <Box component={'div'} sx={{display:"flex", flexDirection: {xs: "row", md: "column"}, rowGap: "0.8rem", columnGap: "0.8rem"}}>
