@@ -15,11 +15,11 @@ export default function Step3Function() {
                         Accept Quotation 🥳 
                     </Typography>
                     <Typography variant="h6" component="p" className={`mt-3`}>
-                        Rapido is India’s first and fastest-growing Bike taxi app with a whopping 25 Million+ app downloads. We are now running operations in more than 100 cities.
+Welcome to HarmonyHome! Your one-stop destination for household solutions. With our user-friendly platform, enjoy peace of mind as you choose the best fits for your tasks. Your serene home, our expertise.
                     </Typography>
                 </Box>
                 
             </Box>
         </section>
     )
-}
+} 
