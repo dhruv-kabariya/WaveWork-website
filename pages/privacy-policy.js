@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title>Repair Man - Privacy Policy</title>
+        <title>WaveWork - Privacy Policy</title>
         <meta name="description" content="Get Work Done" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -22,12 +22,12 @@ export default function PrivacyPolicy() {
       <Box component={"div"} className="mx-auto mb-5 col-lg-8 col-md-10 col-12 px-1 d-flex flex-column" sx={{ marginTop: "85px" }}>
         <Typography variant="h2" component={"h1"} className="mx-auto" sx={{ fontWeight: "bold", fontSize: { xs: "1.5rem", md: "3rem" } }}>PRIVACY POLICY</Typography>
         <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">
-          This privacy notice for Repair Men (<strong>&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;</strong>), describes how and why we might collect, store, use, and/or share (<strong>&quot;process&quot;</strong>) your information when you use our services (<strong>&quot;Services&quot;</strong>), such as when you:
+          This privacy notice for WaveWork (<strong>&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;</strong>), describes how and why we might collect, store, use, and/or share (<strong>&quot;process&quot;</strong>) your information when you use our services (<strong>&quot;Services&quot;</strong>), such as when you:
         </Typography>
         <ul style={{ ...basicStyle }} className="mt-2 ms-3">
           <li>
             <Typography variant="body1" component={"p"} sx={{ color: 'rgb(89, 89, 89)', fontSize: '15px' }} className="mt-3">
-              Download and use our mobile application (Repair Men), or any other application of ours that links to this privacy notice.
+              Download and use our mobile application (WaveWork), or any other application of ours that links to this privacy notice.
             </Typography>
           </li>
           <li>
@@ -292,7 +292,7 @@ export default function PrivacyPolicy() {
           If you have questions or comments about this notice, you may email us at business@acutelabs.in or contact us by post at:
         </Typography>
 
-        <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">Repair Men</Typography>
+        <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">WaveWork</Typography>
         <Typography variant="body1" component={"p"} sx={{ ...basicStyle }}>Vaibhav Bunglows</Typography>
         <Typography variant="body1" component={"p"} sx={{ ...basicStyle }}>Memnagar</Typography>
         <Typography variant="body1" component={"p"} sx={{ ...basicStyle }}>Ahmedabad, Gujarat 395004</Typography>
