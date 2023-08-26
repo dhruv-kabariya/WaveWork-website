@@ -12,10 +12,10 @@ export default function Step1Function() {
 
                 <Box component={'div'} className={`${styles['step1-section-writing']}`} sx={{display: "flex", flexDirection: "column", alignItems: "center", maxWidth: {xs: "75%", md: "30%"}}}>
                     <Typography variant="h2" component="h1">
-                        Post your work requirement
+                    Post your desired service
                     </Typography>
                     <Typography variant="h6" component="p" className={`mt-3`}>
-                    Select a service category from the options available, and you&apos;re on your way to receiving bids from local service providers. It&apos;s as simple as that.
+                    Select a service category from the options available, and you&apos;re on your way to receiving bids from near by service partners. It&apos;s as simple as that.
                     </Typography>
                 </Box>
                 
