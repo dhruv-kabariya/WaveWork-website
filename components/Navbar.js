@@ -34,7 +34,7 @@ export default function Navbar() {
                             textDecoration: 'none',
                         }}
                     >
-                        REPAIR-MAN
+                        WORK-WAVES
                     </Typography>
 
                     {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -91,7 +91,7 @@ export default function Navbar() {
                             textDecoration: 'none',
                         }}
                     >
-                        REPAIR-MAN
+                        WORK-WAVES
                     </Typography>
                     {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (

@@ -11,7 +11,7 @@ export default function CustomerTerms() {
     return (
         <>
             <Head>
-                <title>WaveWork - Customer Terms</title>
+                <title>WorkWaves - Customer Terms</title>
                 <meta name="description" content="Get Work Done" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
@@ -21,10 +21,10 @@ export default function CustomerTerms() {
                 <Typography variant="h2" component={"h1"} className="mx-auto" sx={{ fontWeight: "bold", fontSize: { xs: "1.5rem", md: "3rem" } }}>TERMS & CONDITIONS FOR CUSTOMERS</Typography>
                 <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600" }}>AGREEMENT TO OUR LEGAL TERMS</Typography>
 
-                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We are WaveWork (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; &quot;our&quot;).</Typography>
-                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We operate the mobile application WaveWork (the &quot;App&quot;), as well as any other related products and services that refer or link to these legal terms (the &quot;Legal Terms&quot;) (collectively, the &quot;Services&quot;).</Typography>
+                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We are WorkWaves (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; &quot;our&quot;).</Typography>
+                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We operate the mobile application WorkWaves (the &quot;App&quot;), as well as any other related products and services that refer or link to these legal terms (the &quot;Legal Terms&quot;) (collectively, the &quot;Services&quot;).</Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">You can contact us by email at business@acutelabs.in or by mail to __________, __________, __________.</Typography>
-                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (&quot;you&quot;), and WaveWork, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</Typography>
+                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (&quot;you&quot;), and WorkWaves, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">Supplemental terms and conditions or documents that may be posted on the Services from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Legal Terms at any time and for any reason. We will alert you about any changes by updating the &quot;Last updated&quot; date of these Legal Terms, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Legal Terms to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Legal Terms by your continued use of the Services after the date such revised Legal Terms are posted.</Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">The Services are intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to use or register for the Services.</Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We recommend that you print a copy of these Legal Terms for your records.</Typography>
@@ -209,7 +209,7 @@ export default function CustomerTerms() {
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We reserve the right, but not the obligation, to: (1) monitor the Services for violations of these Legal Terms; (2) take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms, including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Services or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services.</Typography>
                 <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600", scrollMargin: "5rem" }} id="ppyes">13. PRIVACY POLICY</Typography>
 
-                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We care about data privacy and security. Please review our Privacy Policy: <Link href={"https://repair-man-steel.vercel.app/privacy-policy"} target="_blank">https://repair-man-steel.vercel.app/privacy-policy.</Link> By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in India. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in India, then through your continued use of the Services, you are transferring your data to India, and you expressly consent to have your data transferred to and processed in India.</Typography>
+                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We care about data privacy and security. Please review our Privacy Policy: <Link href={"https://workwaves.in/privacy-policy"} target="_blank">https://workwaves.in/privacy-policy.</Link> By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in India. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in India, then through your continued use of the Services, you are transferring your data to India, and you expressly consent to have your data transferred to and processed in India.</Typography>
 
                 <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600", scrollMargin: "5rem" }} id="terms">14. TERM AND TERMINATION</Typography>
 
@@ -223,7 +223,7 @@ export default function CustomerTerms() {
 
                 <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600", scrollMargin: "5rem" }} id="law">16. GOVERNING LAW</Typography>
 
-                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">These Legal Terms shall be governed by and defined following the laws of India. WaveWork and yourself irrevocably consent that the courts of India shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these Legal Terms.</Typography>
+                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">These Legal Terms shall be governed by and defined following the laws of India. WorkWaves and yourself irrevocably consent that the courts of India shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these Legal Terms.</Typography>
 
                 <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600", scrollMargin: "5rem" }} id="disputes">17. DISPUTE RESOLUTION</Typography>
 
@@ -258,7 +258,7 @@ export default function CustomerTerms() {
                 <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600", scrollMargin: "5rem" }} id="contact">25. CONTACT US</Typography>
 
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:</Typography>
-                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3"><strong>WaveWork</strong></Typography>
+                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3"><strong>WorkWaves</strong></Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} >__________</Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} ><strong>business@acutelabs.in</strong></Typography>
 
