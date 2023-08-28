@@ -6,6 +6,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
+import Link from "next/link";
 
 const pages = ['Step-1', 'Step-2', 'Step-3'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -14,28 +15,34 @@ export default function Navbar() {
 
     return (
 
-        <AppBar position="fixed" color="inherit">
+        <AppBar position="fixed" className="py-lg-2 py-md-1 py-0" color="inherit">
             <Container maxWidth="xl">
-                <Toolbar disableGutters sx={{width: '100%'}}>
-                    <Box component={"img"} src="logo-icon.png" width={50} height={50} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}></Box>
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        component="a"
-                        href="/#"
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'none', md: 'flex' },
-                            fontFamily: 'monospace',
-                            fontWeight: 700,
-                            fontSize: {xs: "1rem"},
-                            letterSpacing: '.3rem',
-                            color: 'black',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        WORK-WAVES
-                    </Typography>
+                <Toolbar disableGutters sx={{ width: '100%' }}>
+                    <Link href={"/#"} style={{ textDecoration: "none" }}><Box component={"div"} sx={{ display: "flex" }}>
+                        <Box component={"img"} src="logo-icon.png" height={60} sx={{ display: { xs: 'none', md: 'flex' } }}></Box>
+                        <Typography
+                            variant="h6"
+                            noWrap
+                            component="span"
+                            sx={{
+                                mr: 2,
+                                mt: 3.8,
+                                display: { xs: 'none', md: 'flex' },
+                                fontFamily: 'monospace',
+                                fontWeight: 900,
+                                fontSize: { xs: "1.4rem" },
+                                letterSpacing: '.3rem',
+                                textDecoration: 'none',
+                                backgroundImage: 'linear-gradient(to right, #f3a22d, #e67d2c, #eb642a, #ff9800)',
+                                backgroundClip: 'text',
+                                color: 'transparent',
+                                WebkitBackgroundClip: 'text',
+                            }}
+                        >
+                            ORK-WAVES
+                        </Typography>
+                    </Box></Link>
+
 
                     {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
@@ -73,26 +80,30 @@ export default function Navbar() {
                             ))}
                         </Menu>
                     </Box> */}
-                    <Box component={"img"} src="logo-icon.png" width={30} height={30} sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }}></Box>
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        component="a"
-                        href="/"
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'flex', md: 'none' },
-                            flexGrow: 1,
-                            fontFamily: 'monospace',
-                            fontWeight: 400,
-                            fontSize: {xs: "1rem"},
-                            letterSpacing: {xs: '.1rem', md: ".3rem"},
-                            color: 'black',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        WORK-WAVES
-                    </Typography>
+                    <Link href={"/#"} style={{ textDecoration: "none" }}><Box component={"div"} sx={{ display: "flex" }}>
+                        <Box component={"img"} src="logo-icon.png" height={35} sx={{ display: { xs: 'flex', md: 'none' } }}></Box>
+                        <Typography
+                            variant="h6"
+                            noWrap
+                            component="span"
+                            sx={{
+                                mr: 1,
+                                mt: 2,
+                                display: { xs: 'flex', md: 'none' },
+                                fontFamily: 'monospace',
+                                fontWeight: 900,
+                                fontSize: { xs: "1rem" },
+                                letterSpacing: '.1rem',
+                                textDecoration: 'none',
+                                backgroundImage: 'linear-gradient(to right, #f3a22d, #e67d2c, #eb642a, #ff9800)',
+                                backgroundClip: 'text',
+                                color: 'transparent',
+                                WebkitBackgroundClip: 'text',
+                            }}
+                        >
+                            ORK-WAVES
+                        </Typography>
+                    </Box></Link>
                     {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
                             <Link style={{textDecoration: "none"}} key={page} href={`#${page}`}> <Button
@@ -106,7 +117,7 @@ export default function Navbar() {
                     </Box> */}
 
                     <Box sx={{ flexGrow: 1 }}>
-                        <Button sx={{alignSelf: "flex-end", float: "right", backgroundColor: "#f61524", color: "white"}} className={`${styles['nav-button']}`} onMouseLeave={(e) => e.target.style.backgroundColor = "#f61524"} onMouseEnter={(e) => e.target.style.backgroundColor = "#d00815"} variant="contained" disabled>Comming Soon</Button>
+                        <Button sx={{ alignSelf: "flex-end", float: "right", backgroundColor: "#f61524", color: "white" }} className={`${styles['nav-button']}`} onMouseLeave={(e) => e.target.style.backgroundColor = "#f61524"} onMouseEnter={(e) => e.target.style.backgroundColor = "#d00815"} variant="contained" disabled>Comming Soon</Button>
                     </Box>
                 </Toolbar>
             </Container>
