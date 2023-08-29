@@ -9,10 +9,10 @@ export default function MainSection() {
             <Box component={'div'} sx={{ display: "flex", flexDirection: { xs: 'column', md: 'row' }, justifyContent: "center", alignItems: "center", columnGap: { xs: "0rem", md: "1rem" } }}>
                 <Box component={'div'} sx={{ display: "flex", flexDirection: "column", alignItems: "center", maxWidth: { xs: "95vw", md: "30vw" } }}>
                     <Typography variant="h2" component="h1" className={`${styles['main-section-writing']}`} sx={{ alignSelf: "flex-start" }}>
-                        Post, Compare and Get Work Done!
+                    Post, Compare, and Get Work Done with WorkWaves!
                     </Typography>
                     <Typography variant="h6" component="p" className={`${styles['main-section-writing']} mt-3`}>
-                        Connect with nearby service providers to solve your daily problems. Compare bids, pick your expert, and accomplish tasks efficiently. Your trusted platform for simplified day-to-day services.
+                    Connect with nearby service providers to effortlessly tackle your daily challenges. Compare bids, select your expert, and accomplish tasks efficiently. Your reliable platform for simplifying day-to-day services.
                     </Typography>
                     <Button variant="contained" size="large" className={`mx-auto mt-5 ${styles['main-section-button']}`} disabled>Comming Soon</Button>
                 </Box>

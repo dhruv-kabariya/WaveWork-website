@@ -5,6 +5,7 @@ import Step1Function from '@/components/Step1Section'
 import Step2Function from '@/components/Step2Section'
 import Step3Function from '@/components/Step3Section'
 import Footer from '@/components/Footer'
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,17 +13,47 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Work Waves</title>
-        <meta name="description" content="Get Work Done" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Post, Compare, and Get Work Done with WorkWaves - Your Trusted Platforms</title>
+        <meta name="description" content="Connect with nearby service providers on WorkWaves. Compare bids, pick experts, and accomplish tasks efficiently. Your go-to platform for simplified day-to-day services." />
+        <meta name="keywords" content="nearby service providers, compare bids, household solutions, daily tasks, WorkWaves" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <meta property="og:title" content="Post, Compare, and Get Work Done with WorkWaves" />
+        <meta property="og:description" content="Connect with nearby service providers on WorkWaves. Compare bids, pick experts, and accomplish tasks efficiently." />
+        <meta property="og:image" content="https://workwaves.in/logo-icon.png" />
+        <meta property="og:url" content="https://workwaves.in" />
+        <meta property="og:type" content="website" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Post, Compare, and Get Work Done with WorkWaves" />
+        <meta name="twitter:description" content="Connect with nearby service providers on WorkWaves. Compare bids, pick experts, and accomplish tasks efficiently." />
+        <meta name="twitter:image" content="https://workwaves.in/logo-icon.png" />
+
         <link rel="icon" href="/favicon.ico" />
+
+        <Script 
+          key={"structured-data"} 
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{__html: JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "Service",
+            "name": "WorkWaves Services",
+            "description": "Connect with nearby service providers and accomplish tasks efficiently.",
+            "provider": {
+              "@type": "Organization",
+              "name": "WorkWaves",
+              "sameAs": "https://workwaves.in"
+            }
+          })}}
+        />
+
       </Head>
       <div className='d-flex flex-column'>
-      <MainSection />
-      <Step1Function />
-      <Step2Function />
-      <Step3Function />
-      <Footer />
+        <MainSection />
+        <Step1Function />
+        <Step2Function />
+        <Step3Function />
+        <Footer />
       </div>
     </>
   )

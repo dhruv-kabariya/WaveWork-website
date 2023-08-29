@@ -11,10 +11,23 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title>WorkWaves - Privacy Policy</title>
-        <meta name="description" content="Get Work Done" />
+        <title>Privacy Policy | WorkWaves</title>
+        <meta name="description" content="Learn about WorkWaves' privacy policy regarding the collection, usage, and protection of your personal information." />
+        <meta name="description" content="Learn about WorkWaves' privacy policy regarding the collection, usage, and protection of your personal information." />
+        <meta name="robots" content="noindex, nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <Script 
+            key={"structured-data-privacy-policy"} 
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{__html: JSON.stringify({
+              "@context": "http://schema.org",
+              "@type": "WebPage",
+              "name": "Privacy Policy",
+              "url": "https://workwaves.in/privacy-policy"
+            })}}
+        />
+
       </Head>
 
 

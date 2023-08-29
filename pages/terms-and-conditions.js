@@ -1,8 +1,9 @@
 import { Box, Typography } from "@mui/material"
 import Head from "next/head"
 import Link from "next/link"
+import Script from "next/script"
 
-export default function PartnerTerms() {
+export default function CustomerTerms() {
     const basicStyle = {
         color: 'rgb(89, 89, 89)',
         fontSize: '15px'
@@ -11,20 +12,32 @@ export default function PartnerTerms() {
     return (
         <>
             <Head>
-                <title>WorkWaves - Partner Terms</title>
-                <meta name="description" content="Get Work Done" />
+                <title>Terms and Conditions | WorkWaves</title>
+                <meta name="description" content="Review WorkWaves' terms and conditions for using our platform's services. Learn about the guidelines and rules governing your interactions with our platform." />
+                <meta name="robots" content="noindex, nofollow" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
+                <Script 
+                    key={"structured-data-customers-t&C"} 
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{__html: JSON.stringify({
+                        "@context": "http://schema.org",
+                        "@type": "WebPage",
+                        "name": "Terms and Conditions",
+                        "url": "https://workwaves.in/terms-and-conditions"
+                    })}}
+                />
+
             </Head>
 
             <Box component={"div"} className="mx-auto mb-5 col-lg-8 col-md-10 col-12 px-1 d-flex flex-column" sx={{ marginTop: "85px" }}>
-                <Typography variant="h2" component={"h1"} className="mx-auto" sx={{ fontWeight: "bold", fontSize: { xs: "1.5rem", md: "3rem" } }}>TERMS & CONDITIONS FOR PARTNERS</Typography>
+                <Typography variant="h2" component={"h1"} className="mx-auto" sx={{ fontWeight: "bold", fontSize: { xs: "1.5rem", md: "3rem" } }}>TERMS & CONDITIONS FOR CUSTOMERS</Typography>
                 <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600" }}>AGREEMENT TO OUR LEGAL TERMS</Typography>
 
-                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We are WorkWaves Partners (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; &quot;our&quot;).</Typography>
-                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We operate the mobile application WorkWaves Partners (the &quot;App&quot;), as well as any other related products and services that refer or link to these legal terms (the &quot;Legal Terms&quot;) (collectively, the &quot;Services&quot;).</Typography>
+                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We are WorkWaves (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; &quot;our&quot;).</Typography>
+                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We operate the mobile application WorkWaves (the &quot;App&quot;), as well as any other related products and services that refer or link to these legal terms (the &quot;Legal Terms&quot;) (collectively, the &quot;Services&quot;).</Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">You can contact us by email at business@acutelabs.in or by mail to __________, __________, __________.</Typography>
-                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (&quot;you&quot;), and WorkWaves Partners, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</Typography>
+                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity (&quot;you&quot;), and WorkWaves, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">Supplemental terms and conditions or documents that may be posted on the Services from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Legal Terms at any time and for any reason. We will alert you about any changes by updating the &quot;Last updated&quot; date of these Legal Terms, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Legal Terms to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Legal Terms by your continued use of the Services after the date such revised Legal Terms are posted.</Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">The Services are intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to use or register for the Services.</Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We recommend that you print a copy of these Legal Terms for your records.</Typography>
@@ -223,7 +236,7 @@ export default function PartnerTerms() {
 
                 <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600", scrollMargin: "5rem" }} id="law">16. GOVERNING LAW</Typography>
 
-                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">These Legal Terms shall be governed by and defined following the laws of India. WorkWaves Partners and yourself irrevocably consent that the courts of India shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these Legal Terms.</Typography>
+                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">These Legal Terms shall be governed by and defined following the laws of India. WorkWaves and yourself irrevocably consent that the courts of India shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these Legal Terms.</Typography>
 
                 <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600", scrollMargin: "5rem" }} id="disputes">17. DISPUTE RESOLUTION</Typography>
 
@@ -258,7 +271,7 @@ export default function PartnerTerms() {
                 <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600", scrollMargin: "5rem" }} id="contact">25. CONTACT US</Typography>
 
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:</Typography>
-                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3"><strong>WorkWaves Partners</strong></Typography>
+                <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3"><strong>WorkWaves</strong></Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} >__________</Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} ><strong>business@acutelabs.in</strong></Typography>
 
