@@ -30,24 +30,8 @@ export default function Home() {
         <meta name="twitter:image" content="https://workwaves.in/logo-icon.png" />
 
         <link rel="icon" href="/favicon.ico" />
-
-        <Script 
-          key={"structured-data"} 
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{__html: JSON.stringify({
-            "@context": "http://schema.org",
-            "@type": "Service",
-            "name": "WorkWaves Services",
-            "description": "Connect with nearby service providers and accomplish tasks efficiently.",
-            "provider": {
-              "@type": "Organization",
-              "name": "WorkWaves",
-              "sameAs": "https://workwaves.in"
-            }
-          })}}
-        />
-
       </Head>
+      
       <div className='d-flex flex-column'>
         <MainSection />
         <Step1Function />

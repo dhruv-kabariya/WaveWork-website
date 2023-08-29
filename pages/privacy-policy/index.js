@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 import Head from "next/head";
 import Link from "next/link";
 
-export default function PrivacyPolicy() {
+export default function Index() {
   const basicStyle = {
     color: 'rgb(89, 89, 89)',
     fontSize: '15px'
@@ -17,19 +17,10 @@ export default function PrivacyPolicy() {
         <meta name="robots" content="noindex, nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <Script 
-            key={"structured-data-privacy-policy"} 
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{__html: JSON.stringify({
-              "@context": "http://schema.org",
-              "@type": "WebPage",
-              "name": "Privacy Policy",
-              "url": "https://workwaves.in/privacy-policy"
-            })}}
-        />
+        
 
       </Head>
-
+      
 
 
       <Box component={"div"} className="mx-auto mb-5 col-lg-8 col-md-10 col-12 px-1 d-flex flex-column" sx={{ marginTop: "85px" }}>
