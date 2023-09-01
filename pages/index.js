@@ -13,21 +13,21 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Post, Compare, and Get Work Done with WorkWaves - Your Trusted Platforms</title>
-        <meta name="description" content="Connect with nearby service providers on WorkWaves. Compare bids, pick experts, and accomplish tasks efficiently. Your go-to platform for simplified day-to-day services." />
-        <meta name="keywords" content="nearby service providers, compare bids, household solutions, daily tasks, WorkWaves" />
+        <title>Post, Compare, and Get Work Done with WaveWork - Your Trusted Platforms</title>
+        <meta name="description" content="Connect with nearby service providers on WaveWork. Compare bids, pick experts, and accomplish tasks efficiently. Your go-to platform for simplified day-to-day services." />
+        <meta name="keywords" content="nearby service providers, compare bids, household solutions, daily tasks, WaveWork" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta property="og:title" content="Post, Compare, and Get Work Done with WorkWaves" />
-        <meta property="og:description" content="Connect with nearby service providers on WorkWaves. Compare bids, pick experts, and accomplish tasks efficiently." />
-        <meta property="og:image" content="https://workwaves.in/logo-icon.png" />
-        <meta property="og:url" content="https://workwaves.in" />
+        <meta property="og:title" content="Post, Compare, and Get Work Done with WaveWork" />
+        <meta property="og:description" content="Connect with nearby service providers on WaveWork. Compare bids, pick experts, and accomplish tasks efficiently." />
+        <meta property="og:image" content="https://WaveWork.in/logo-icon.png" />
+        <meta property="og:url" content="https://WaveWork.in" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Post, Compare, and Get Work Done with WorkWaves" />
-        <meta name="twitter:description" content="Connect with nearby service providers on WorkWaves. Compare bids, pick experts, and accomplish tasks efficiently." />
-        <meta name="twitter:image" content="https://workwaves.in/logo-icon.png" />
+        <meta name="twitter:title" content="Post, Compare, and Get Work Done with WaveWork" />
+        <meta name="twitter:description" content="Connect with nearby service providers on WaveWork. Compare bids, pick experts, and accomplish tasks efficiently." />
+        <meta name="twitter:image" content="https://WaveWork.in/logo-icon.png" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>

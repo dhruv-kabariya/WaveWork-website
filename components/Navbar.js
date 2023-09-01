@@ -19,7 +19,7 @@ export default function Navbar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters sx={{ width: '100%' }}>
                     <Link href={"/#"} style={{ textDecoration: "none" }}><Box component={"div"} sx={{ display: "flex" }}>
-                        <Box component={"img"} src="logo-icon.png" alt="workwaves logo" height={60} sx={{ display: { xs: 'none', md: 'flex' } }}></Box>
+                        <Box component={"img"} src="logo-icon.png" alt="WaveWork logo" height={60} sx={{ display: { xs: 'none', md: 'flex' } }}></Box>
                         <Typography
                             variant="h6"
                             noWrap
@@ -39,7 +39,7 @@ export default function Navbar() {
                                 WebkitBackgroundClip: 'text',
                             }}
                         >
-                            ORK-WAVES
+                            ave-Work
                         </Typography>
                     </Box></Link>
 
@@ -101,7 +101,7 @@ export default function Navbar() {
                                 WebkitBackgroundClip: 'text',
                             }}
                         >
-                            ORK-WAVES
+                            ave-Work
                         </Typography>
                     </Box></Link>
                     {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>

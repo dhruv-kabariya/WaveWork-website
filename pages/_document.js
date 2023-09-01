@@ -14,12 +14,12 @@ export default function Document() {
           dangerouslySetInnerHTML={{__html: JSON.stringify({
             "@context": "http://schema.org",
             "@type": "Service",
-            "name": "WorkWaves Services",
+            "name": "WaveWork Services",
             "description": "Connect with nearby service providers and accomplish tasks efficiently.",
             "provider": {
               "@type": "Organization",
-              "name": "WorkWaves",
-              "sameAs": "https://workwaves.in"
+              "name": "WaveWork",
+              "sameAs": "https://WaveWork.in"
             }
           })}}
         />
