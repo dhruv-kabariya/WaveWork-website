@@ -12,7 +12,7 @@ export default function handler(req, res) {
       
       <!-- Homepage -->
       <url>
-          <loc>https://WaveWork.in/</loc>
+          <loc>https://wavework.in/</loc>
           <lastmod>2023-08-29</lastmod>
           <changefreq>monthly</changefreq>
           <priority>1.0</priority>
@@ -20,7 +20,7 @@ export default function handler(req, res) {
       
       <!-- Privacy Policy -->
       <url>
-          <loc>https://WaveWork.in/privacy-policy</loc>
+          <loc>https://wavework.in/privacy-policy</loc>
           <lastmod>2023-08-29</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -28,7 +28,7 @@ export default function handler(req, res) {
       
       <!-- Terms and Conditions -->
       <url>
-          <loc>https://WaveWork.in/terms-and-conditions</loc>
+          <loc>https://wavework.in/terms-and-conditions</loc>
           <lastmod>2023-08-29</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
@@ -36,7 +36,7 @@ export default function handler(req, res) {
       
       <!-- Partner Terms and Conditions -->
       <url>
-          <loc>https://WaveWork.in/partner-terms-and-conditions</loc>
+          <loc>https://wavework.in/partner-terms-and-conditions</loc>
           <lastmod>2023-08-29</lastmod>
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>

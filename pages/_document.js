@@ -19,7 +19,7 @@ export default function Document() {
             "provider": {
               "@type": "Organization",
               "name": "WaveWork",
-              "sameAs": "https://WaveWork.in"
+              "sameAs": "https://wavework.in"
             }
           })}}
         />
