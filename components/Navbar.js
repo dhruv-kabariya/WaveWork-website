@@ -81,7 +81,7 @@ export default function Navbar() {
                         </Menu>
                     </Box> */}
                     <Link href={"/#"} style={{ textDecoration: "none" }}><Box component={"div"} sx={{ display: "flex" }}>
-                        <Box component={"img"} src="logo-icon.png" height={35} sx={{ display: { xs: 'flex', md: 'none' } }}></Box>
+                        <Box component={"img"} alt="WaveWork logo " src="logo-icon.png" height={35} sx={{ display: { xs: 'flex', md: 'none' } }}></Box>
                         <Typography
                             variant="h6"
                             noWrap

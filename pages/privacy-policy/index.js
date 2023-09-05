@@ -17,10 +17,10 @@ export default function Index() {
         <meta name="robots" content="noindex, nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        
+
 
       </Head>
-      
+
 
 
       <Box component={"div"} className="mx-auto mb-5 col-lg-8 col-md-10 col-12 px-1 d-flex flex-column" sx={{ marginTop: "85px" }}>
@@ -68,7 +68,7 @@ export default function Index() {
         </Typography>
 
         <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
-          <strong>How do we keep your information safe?</strong> We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about<Link href={"#infosafe"}>how we keep your information safe</Link>.
+          <strong>How do we keep your information safe?</strong> We have implemented robust organizational and technical processes and procedures to safeguard your personal information. Learn more about<Link href={"#infosafe"}>how we keep your information safe</Link>.
         </Typography>
 
         <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
@@ -210,7 +210,7 @@ export default function Index() {
         </Typography>
 
         <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
-          We have implemented appropriate and reasonable technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorized third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Although we will do our best to protect your personal information, transmission of personal information to and from our Services is at your own risk. You should only access the Services within a secure environment.
+          We have implemented robust organizational and technical processes and procedures to safeguard your personal information. You should only access the Services within a secure environment.
         </Typography>
 
         <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600", scrollMargin: "5rem" }} id="infominors">7. DO WE COLLECT INFORMATION FROM MINORS?</Typography>
