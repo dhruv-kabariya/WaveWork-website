@@ -27,9 +27,10 @@ export default function Footer() {
             <Box component={'div'} sx={{display:"flex", flexDirection: {xs: "row", md: "column"}, rowGap: "0.8rem", columnGap: "0.8rem"}}>
             <Link href={"/"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Home</Typography></Link>
                 {/* <Typography component={'p'} variant="body3">About Us</Typography> */}
-                <Link href={"/privacy-policy"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Privacy Policy</Typography></Link>
+                <Link target="_blank" href={"https://docs.google.com/forms/d/e/1FAIpQLSc4HCpkfaBwTbixW1CAm8m722zLM8piu93yFoFfj1T55j-GZw/viewform?usp=sf_link"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Early Registration</Typography></Link>
             </Box>
             <Box component={'div'} sx={{display:"flex", flexDirection: {xs: "row", md: "column"}, rowGap: "0.8rem", columnGap: "0.8rem"}}>
+            <Link href={"/privacy-policy"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Privacy Policy</Typography></Link>
                 <Link href={"/terms-and-conditions"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Customer Terms</Typography></Link>
                 <Link href={"/partner-terms-and-conditions"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Partner Terms</Typography></Link>
             </Box>
