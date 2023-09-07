@@ -2,6 +2,7 @@ import styles from "../styles/MainSection.module.css"
 import MainSectionSVG from "../public/mainSection.svg"
 import Image from "next/image"
 import { Box, Button, Typography } from "@mui/material"
+import Link from "next/link"
 
 export default function MainSection() {
     return (
@@ -14,7 +15,7 @@ export default function MainSection() {
                     <Typography variant="h6" component="p" className={`${styles['main-section-writing']} mt-3`}>
                     Connect with nearby service providers to effortlessly tackle your daily challenges. Compare bids, select your expert, and accomplish tasks efficiently. Your reliable platform for simplifying day-to-day services.
                     </Typography>
-                    <Button variant="contained" size="large" className={`mx-auto mt-5 ${styles['main-section-button']}`} disabled>Comming Soon</Button>
+                    <Link target="_blank" href={"https://play.google.com/store/apps/details?id=com.acutelabs.repair_man"}><Button variant="contained" size="large" className={`mx-auto mt-5 ${styles['main-section-button']}`}>Get App</Button></Link>
                 </Box>
                 <Box component={'div'} sx={{ maxWidth: { xs: "100%", md: "50%" }, display: "flex", justifyContent: "center", alignItems: "center" }}>
                     <Image src={MainSectionSVG} alt="hero-image" className={`${styles['main-section__image']}`} />

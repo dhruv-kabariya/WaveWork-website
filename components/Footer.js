@@ -14,15 +14,15 @@ export default function Footer() {
                     variant={"h5"}
                     component={'body1'}
                 >Customer App</Typography>
-                <Image src={PlayStoreSVG} alt="WaveWork palystore-app link" width={150} />
-                <Image src={AppStoreSVG} alt="WaveWork app-store link" width={150} />
+                <Link target="_blank" href={"https://play.google.com/store/apps/details?id=com.acutelabs.repair_man"}><Image src={PlayStoreSVG} alt="WaveWork palystore-app link" width={150} /></Link>
+                {/* <Image src={AppStoreSVG} alt="WaveWork app-store link" width={150} /> */}
             </Box>
             <Box component={'div'} sx={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", rowGap: "1rem" }}>
                 <Typography 
                     variant="h5"
                     component={'body1'}
                 >Partner App</Typography>
-                <Image src={PlayStoreSVG} alt="WaveWork partners palystore-app link" width={150} />
+                <Link target="_blank" href={"https://play.google.com/store/apps/details?id=com.acutelabs.repair_man_partner"}><Image src={PlayStoreSVG} alt="WaveWork partners palystore-app link" width={150} /></Link>
             </Box>
             <Box component={'div'} sx={{display:"flex", flexDirection: {xs: "row", md: "column"}, rowGap: "0.8rem", columnGap: "0.8rem"}}>
             <Link href={"/"} style={{textDecoration: "none", color: "white"}}><Typography component={'p'} variant="body3">Home</Typography></Link>
