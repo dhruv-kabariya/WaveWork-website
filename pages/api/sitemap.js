@@ -41,6 +41,11 @@ export default function handler(req, res) {
           <changefreq>monthly</changefreq>
           <priority>0.8</priority>
       </url>
+      <url>
+        <loc>https://wavework.in/services/</loc> 
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+      </url>
       
       </urlset>`
   

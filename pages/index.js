@@ -18,14 +18,14 @@ export default function Home() {
         <meta name="keywords" content="nearby service providers, compare bids, household solutions, daily tasks, WaveWork" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <meta property="og:title" content="Post, Compare, and Get Work Done with WaveWork" />
+        <meta property="og:title" content="Get Work Done with WaveWork - Your Trusted Platforms" />
         <meta property="og:description" content="Connect with nearby service providers on WaveWork. Compare bids, pick experts, and accomplish tasks efficiently." />
         <meta property="og:image" content="https://wavework.in/logo-icon.png" />
         <meta property="og:url" content="https://wavework.in" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Post, Compare, and Get Work Done with WaveWork" />
+        <meta name="twitter:title" content="Get Work Done with WaveWork - Your Trusted Platforms" />
         <meta name="twitter:description" content="Connect with nearby service providers on WaveWork. Compare bids, pick experts, and accomplish tasks efficiently." />
         <meta name="twitter:image" content="https://wavework.in/logo-icon.png" />
 

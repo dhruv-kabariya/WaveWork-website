@@ -19,8 +19,8 @@ export default function Navbar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters sx={{ width: '100%' }}>
                     <Link href={"/#"} style={{ textDecoration: "none" }}><Box component={"div"} sx={{ display: "flex" }}>
-                        <Box component={"img"} src="logo-icon.png" alt="WaveWork logo" height={60} sx={{ display: { xs: 'none', md: 'flex' } }}></Box>
-                        <Typography
+                        <Box component={"img"} src="wavework-logo.png" alt="WaveWork logo" height={60} sx={{ display: { xs: 'none', md: 'flex' } }}></Box>
+                        {/* <Typography
                             variant="h6"
                             noWrap
                             component="span"
@@ -33,14 +33,14 @@ export default function Navbar() {
                                 fontSize: { xs: "1.4rem" },
                                 letterSpacing: '.3rem',
                                 textDecoration: 'none',
-                                backgroundImage: 'linear-gradient(to right, #f3a22d, #e67d2c, #eb642a, #ff9800)',
+                                backgroundImage: 'linear-gradient(to right, #ed0010, #ed0010, #e90212)',
                                 backgroundClip: 'text',
                                 color: 'transparent',
                                 WebkitBackgroundClip: 'text',
                             }}
                         >
                             ave-Work
-                        </Typography>
+                        </Typography> */}
                     </Box></Link>
 
 
@@ -81,8 +81,8 @@ export default function Navbar() {
                         </Menu>
                     </Box> */}
                     <Link href={"/#"} style={{ textDecoration: "none" }}><Box component={"div"} sx={{ display: "flex" }}>
-                        <Box component={"img"} alt="WaveWork logo " src="logo-icon.png" height={35} sx={{ display: { xs: 'flex', md: 'none' } }}></Box>
-                        <Typography
+                        <Box component={"img"} alt="WaveWork logo " src="wavework-logo.png" height={35} sx={{ display: { xs: 'flex', md: 'none' } }}></Box>
+                        {/* <Typography
                             variant="h6"
                             noWrap
                             component="span"
@@ -95,14 +95,14 @@ export default function Navbar() {
                                 fontSize: { xs: "1rem" },
                                 letterSpacing: '.1rem',
                                 textDecoration: 'none',
-                                backgroundImage: 'linear-gradient(to right, #f3a22d, #e67d2c, #eb642a, #ff9800)',
+                                backgroundImage: 'linear-gradient(to right, #ed0010, #ed0010, #e90212)',
                                 backgroundClip: 'text',
                                 color: 'transparent',
                                 WebkitBackgroundClip: 'text',
                             }}
                         >
                             ave-Work
-                        </Typography>
+                        </Typography> */}
                     </Box></Link>
                     {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
