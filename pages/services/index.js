@@ -17,14 +17,14 @@ export default function Page({data}) {
                 <meta name="keywords" content="Services,Electrician Services,TV Repair,Plumbing Solutions,Cook at Home,Handyman Services,Landscaping and Gardening,Home Cleaning,Car Maintenance,Catering Services,Beauty and Wellness" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-                <meta property="og:title" content="ervices | WorkWaves - Simplified Day-to-Day Solutions" />
+                <meta property="og:title" content="Services | WorkWaves - Simplified Day-to-Day Solutions" />
                 <meta property="og:description" content="Discover a wide range of convenient services at WorkWaves. Find trusted service providers for tasks like electrician services, TV repair, plumbing, and more." />
                 <meta property="og:image" content="https://wavework.in/logo-icon.png" />
                 <meta property="og:url" content="https://wavework.in" />
                 <meta property="og:type" content="website" />
 
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="ervices | WorkWaves - Simplified Day-to-Day Solutions" />
+                <meta name="twitter:title" content="Services | WorkWaves - Simplified Day-to-Day Solutions" />
                 <meta name="twitter:description" content="Discover a wide range of convenient services at WorkWaves. Find trusted service providers for tasks like electrician services, TV repair, plumbing, and more." />
                 <meta name="twitter:image" content="https://wavework.in/logo-icon.png" />
 
