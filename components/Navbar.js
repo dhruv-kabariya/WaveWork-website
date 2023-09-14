@@ -39,7 +39,7 @@ export default function Navbar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters sx={{ width: '100%' }}>
                     <Link href={"/#"} style={{ textDecoration: "none" }}><Box component={"div"} sx={{ display: "flex" }}>
-                        <Box component={"img"} src="/wavework-logo.png" alt="WaveWork logo" height={60} sx={{ display: { xs: 'none', md: 'flex' } }}></Box>
+                        <Box component={"img"} src="/wavework-logo.jpg" alt="WaveWork logo" height={60} sx={{ display: { xs: 'none', md: 'flex' } }}></Box>
                         {/* <Typography
                             variant="h6"
                             noWrap
@@ -101,7 +101,7 @@ export default function Navbar() {
                         </Menu>
                     </Box>
                     <Link href={"/#"} style={{ textDecoration: "none" }}><Box component={"div"} sx={{ display: "flex" }}>
-                        <Box component={"img"} alt="WaveWork logo " src="/wavework-logo.png" height={35} sx={{ display: { xs: 'flex', md: 'none' } }}></Box>
+                        <Box component={"img"} alt="WaveWork logo " src="/wavework-logo.jpg" height={35} sx={{ display: { xs: 'flex', md: 'none' } }}></Box>
                         {/* <Typography
                             variant="h6"
                             noWrap

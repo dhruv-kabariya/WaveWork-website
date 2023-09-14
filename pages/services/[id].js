@@ -5,6 +5,11 @@ import GetAppDialog from "@/components/GetAppDialog";
 import Head from "next/head";
 import { SentimentDissatisfied } from "@mui/icons-material";
 
+function camelCaseToWords(s) {
+    const result = s.replace(/([A-Z])/g, ' $1');
+    return result.charAt(0).toUpperCase() + result.slice(1);
+}
+
 export default function ServiceDetails() {
     const router = useRouter();
     const { id } = router.query;
@@ -12,7 +17,7 @@ export default function ServiceDetails() {
     let location = id?.split("-")[1];
 
     const locations = [
-        "Ahmedabad",
+        "ahmedabad",
         "maninagar",
         "vastrapur",
         "satellite",
@@ -99,7 +104,6 @@ export default function ServiceDetails() {
         "roService",
         "microwaveService"
     ]
-
     if(!skills.includes(skill) || !locations.includes(location)) {
         skill = null;
         location = null;
@@ -113,9 +117,9 @@ export default function ServiceDetails() {
         <>
 
         <Head>
-            <title>{`Best ${skill} in ${location}`}</title>
-            <meta name="description" content={`Find top ${skill} in ${location}. We offer skilled ${skill} services near you.`} />
-            <meta name="keywords" content={`${skill}, ${location}, ${skill} near me, top ${skill}, best ${skill}`} />
+            <title>{`Best ${camelCaseToWords(skill)} in ${camelCaseToWords(location)}`}</title>
+            <meta name="description" content={`Find top ${camelCaseToWords(skill)} in ${camelCaseToWords(location)}. We offer skilled ${camelCaseToWords(skill)} services near you.`} />
+            <meta name="keywords" content={`${camelCaseToWords(skill)}, ${camelCaseToWords(location)}, ${camelCaseToWords(skill)} near me, top ${camelCaseToWords(skill)}, best ${camelCaseToWords(skill)}`} />
             <meta name="robots" content="index, follow" />
             <meta name="author" content="WaveWork" />
         </Head>
