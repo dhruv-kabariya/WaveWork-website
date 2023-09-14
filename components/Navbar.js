@@ -10,7 +10,7 @@ import Link from "next/link";
 import { IconButton, Menu, MenuItem } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 
-const pages = ['Services'];
+const pages = ['Services', 'Privacy-Policy'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 export default function Navbar() {

@@ -4,6 +4,7 @@ import styles from "../../styles/Services.module.css";
 import { Router } from "next/router";
 import { SentimentDissatisfied } from "@mui/icons-material";
 import Head from "next/head";
+import Footer from "@/components/Footer";
 
 
 
@@ -52,6 +53,7 @@ export default function Page({data}) {
 
             }
         </div>
+        <Footer />
         </>
     )
 }   
