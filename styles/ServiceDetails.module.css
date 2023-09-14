@@ -1,0 +1,118 @@
+.services-details-section{
+    padding-top: 85px;
+    min-height: 100vh;
+}
+
+
+
+@media screen and (max-width: 1650px) {
+    .service-details-card {
+        min-width: 700px !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .service-details-avatar {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .service-details-card {
+        min-width: 0px !important;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .service-details-description {
+        width: 400px !important;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .service-details-description {
+        width: 330px !important;
+    }
+    .service-details-avatar {
+        width: 90px !important;
+        height: 90px !important;
+    }
+    .dialog-image{
+        width: 240px !important;
+        height: 500px !important;
+    }
+    .dialog-main {
+        column-gap: 2.5rem !important;
+    }
+    .dialog-title {
+        font-size: 2.5rem !important;
+    }
+    .dialog-column{
+        row-gap: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .dialog-image{
+        width: 200px !important;
+        height: 400px !important;
+    }
+    .dialog-main {
+        column-gap: 2rem !important;
+    }
+    .dialog-title {
+        font-size: 2rem !important;
+    }
+    .dialog-column{
+        row-gap: 0.8rem !important;
+    }
+    .dilaog-qrcode{
+        width: 170px !important;
+        height: 170px !important;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .service-details-description {
+        width: 250px !important;
+    }
+    .service-details-avatar {
+        width: 90px !important;
+        height: 90px !important;
+    }
+    .dialog-image{
+        display: none !important;
+    }
+    .dialog-main {
+        justify-content: center !important;
+        column-gap: 1.5rem !important;
+    }
+    .dialog-title {
+        font-size: 1.7rem !important;
+    }
+    .dialog-column{
+        row-gap: 0.5rem !important;
+    }
+    .dilaog-qrcode{
+        width: 130px !important;
+        height: 130px !important;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .dialog-main {
+        justify-content: center !important;
+        column-gap: 1.5rem !important;
+    }
+    .dialog-title {
+        font-size: 1.7rem !important;
+    }
+    .dialog-column{
+        row-gap: 0.5rem !important;
+    }
+    .dilaog-qrcode{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .dialog-text{
+        font-size: 0.7rem;
+    }
+}

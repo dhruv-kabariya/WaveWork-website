@@ -24,7 +24,7 @@ export default function Index() {
 
 
       <Box component={"div"} className="mx-auto mb-5 col-lg-8 col-md-10 col-12 px-1 d-flex flex-column" sx={{ marginTop: "85px" }}>
-        <Typography variant="h2" component={"h1"} className="mx-auto" sx={{ fontWeight: "bold", fontSize: { xs: "1.5rem", md: "3rem" } }}>PRIVACY POLICY</Typography>
+        <Typography variant="h2" component={"h2"} className="mx-auto" sx={{ fontWeight: "bold", fontSize: { xs: "1.5rem", md: "3rem" } }}>PRIVACY POLICY</Typography>
         <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">
           This privacy notice for WaveWork (<strong>&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;</strong>), describes how and why we might collect, store, use, and/or share (<strong>&quot;process&quot;</strong>) your information when you use our services (<strong>&quot;Services&quot;</strong>), such as when you:
         </Typography>
@@ -245,7 +245,7 @@ export default function Index() {
           However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
         </Typography>
 
-        <Typography variant="h6" component={"h2"} className="mt-4" sx={{ fontWeight: "600" }}>Account Information</Typography>
+        <Typography variant="h6" component={"h6"} className="mt-4" sx={{ fontWeight: "600" }}>Account Information</Typography>
 
         <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-4">
           If you would at any time like to review or change the information in your account or terminate your account, you can:

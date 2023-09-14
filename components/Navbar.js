@@ -7,11 +7,31 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Link from "next/link";
+import { IconButton, Menu, MenuItem } from "@mui/material";
+import MenuIcon from '@mui/icons-material/Menu';
 
-const pages = ['Step-1', 'Step-2', 'Step-3'];
+const pages = ['Services'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 export default function Navbar() {
+
+    const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const [anchorElUser, setAnchorElUser] = React.useState(null);
+
+  const handleOpenNavMenu = (event) => {
+    setAnchorElNav(event.currentTarget);
+  };
+  const handleOpenUserMenu = (event) => {
+    setAnchorElUser(event.currentTarget);
+  };
+
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
+
+  const handleCloseUserMenu = () => {
+    setAnchorElUser(null);
+  };
 
     return (
 
@@ -19,7 +39,7 @@ export default function Navbar() {
             <Container maxWidth="xl">
                 <Toolbar disableGutters sx={{ width: '100%' }}>
                     <Link href={"/#"} style={{ textDecoration: "none" }}><Box component={"div"} sx={{ display: "flex" }}>
-                        <Box component={"img"} src="wavework-logo.png" alt="WaveWork logo" height={60} sx={{ display: { xs: 'none', md: 'flex' } }}></Box>
+                        <Box component={"img"} src="/wavework-logo.png" alt="WaveWork logo" height={60} sx={{ display: { xs: 'none', md: 'flex' } }}></Box>
                         {/* <Typography
                             variant="h6"
                             noWrap
@@ -44,7 +64,7 @@ export default function Navbar() {
                     </Box></Link>
 
 
-                    {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -79,9 +99,9 @@ export default function Navbar() {
                                 </MenuItem></Link>
                             ))}
                         </Menu>
-                    </Box> */}
+                    </Box>
                     <Link href={"/#"} style={{ textDecoration: "none" }}><Box component={"div"} sx={{ display: "flex" }}>
-                        <Box component={"img"} alt="WaveWork logo " src="wavework-logo.png" height={35} sx={{ display: { xs: 'flex', md: 'none' } }}></Box>
+                        <Box component={"img"} alt="WaveWork logo " src="/wavework-logo.png" height={35} sx={{ display: { xs: 'flex', md: 'none' } }}></Box>
                         {/* <Typography
                             variant="h6"
                             noWrap
@@ -108,7 +128,7 @@ export default function Navbar() {
                         {pages.map((page) => (
                             <Link style={{textDecoration: "none"}} key={page} href={`#${page}`}> <Button
                                 
-                                onClick={handleCloseNavMenu}
+                                // onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'black', display: 'block' }}
                             >
                                 {page}
@@ -116,7 +136,16 @@ export default function Navbar() {
                         ))}
                     </Box> */}
 
-                    <Box sx={{ flexGrow: 1 }}>
+                    <Box sx={{ flexGrow: 1, alignItems: "center", display: "flex", justifyContent: "flex-end", flexDirection: "row", columnGap: "2rem" }}>
+                        {pages.map((page) => (
+                            <Link style={{textDecoration: "none", display: { xs: 'none', md: 'block' }}} key={page} href={`/${page.toLocaleLowerCase()}`}> <Button
+                                
+                                // onClick={handleCloseNavMenu}
+                                sx={{ color: 'black', display: { xs: 'none', md: 'block' } }}
+                            >
+                                {page}
+                            </Button></Link>
+                        ))}
                         <Link target="_blank" href={"https://play.google.com/store/apps/details?id=com.acutelabs.repair_man"}><Button sx={{ alignSelf: "flex-end", float: "right", backgroundColor: "#f61524", color: "white" }} className={`${styles['nav-button']}`} onMouseLeave={(e) => e.target.style.backgroundColor = "#f61524"} onMouseEnter={(e) => e.target.style.backgroundColor = "#d00815"} variant="contained">Get App</Button></Link>
                     </Box>
                 </Toolbar>

@@ -61,7 +61,6 @@ export async function getServerSideProps() {
         // Fetch data from external API
         const res = await fetch(`http://api.wavework.in:8080/auth/v1/services/`)
         const data = await res.json();
-        console.log(data)
         return { props: { data: data?.data } }
     }catch(err){
         return { props: { data: {

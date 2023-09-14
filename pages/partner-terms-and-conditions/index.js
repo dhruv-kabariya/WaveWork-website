@@ -23,8 +23,8 @@ export default function Index() {
             </Head>
             
             <Box component={"div"} className="mx-auto mb-5 col-lg-8 col-md-10 col-12 px-1 d-flex flex-column" sx={{ marginTop: "85px" }}>
-                <Typography variant="h2" component={"h1"} className="mx-auto" sx={{ fontWeight: "bold", fontSize: { xs: "1.5rem", md: "3rem" } }}>TERMS & CONDITIONS FOR PARTNERS</Typography>
-                <Typography variant="h5" component={"h1"} className="mt-5" sx={{ fontWeight: "600" }}>AGREEMENT TO OUR LEGAL TERMS</Typography>
+                <Typography variant="h2" component={"h2"} className="mx-auto" sx={{ fontWeight: "bold", fontSize: { xs: "1.5rem", md: "3rem" } }}>TERMS & CONDITIONS FOR PARTNERS</Typography>
+                <Typography variant="h5" component={"h2"} className="mt-5" sx={{ fontWeight: "600" }}>AGREEMENT TO OUR LEGAL TERMS</Typography>
 
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We are WaveWork Partners (&quot;Company,&quot; &quot;we,&quot; &quot;us,&quot; &quot;our&quot;).</Typography>
                 <Typography variant="body1" component={"p"} sx={{ ...basicStyle }} className="mt-3">We operate the mobile application WaveWork Partners (the &quot;App&quot;), as well as any other related products and services that refer or link to these legal terms (the &quot;Legal Terms&quot;) (collectively, the &quot;Services&quot;).</Typography>

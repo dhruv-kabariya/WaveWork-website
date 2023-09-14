@@ -18,7 +18,7 @@ export default function MainSection() {
                     <Link target="_blank" href={"https://play.google.com/store/apps/details?id=com.acutelabs.repair_man"}><Button variant="contained" size="large" className={`mx-auto mt-5 ${styles['main-section-button']}`}>Get App</Button></Link>
                 </Box>
                 <Box component={'div'} sx={{ maxWidth: { xs: "100%", md: "50%" }, display: "flex", justifyContent: "center", alignItems: "center" }}>
-                    <Image src={MainSectionSVG} alt="hero-image" className={`${styles['main-section__image']}`} />
+                    <Image priority={true} src={MainSectionSVG} alt="hero-image" className={`${styles['main-section__image']}`} />
                 </Box>
             </Box>
         </section>
