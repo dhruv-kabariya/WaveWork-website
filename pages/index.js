@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Get Work Done with WaveWork - Your Trusted Platforms</title>
+        <title>Find Local Service Providers with WaveWork</title>
         <meta name="description" content="Connect with nearby service providers on WaveWork. Compare bids, pick experts, and accomplish tasks efficiently. Your go-to platform for simplified day-to-day services." />
         <meta name="keywords" content="nearby service providers, compare bids, household solutions, daily tasks, WaveWork" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
