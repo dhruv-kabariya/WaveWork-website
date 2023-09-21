@@ -9,110 +9,111 @@ function camelCaseToWords(s) {
     const result = s.replace(/([A-Z])/g, ' $1');
     return result.charAt(0).toUpperCase() + result.slice(1);
 }
+const locations = [
+    "ahmedabad",
+    "maninagar",
+    "vastrapur",
+    "satellite",
+    "navrangpura",
+    "bodakdev",
+    "prahladnagar",
+    "ghatlodia",
+    "thaltej",
+    "naranpura",
+    "chandkheda",
+    "vastral",
+    "sarkhej",
+    "naroda",
+    "sabarmati",
+    "ambawadi",
+    "shahibaug",
+    "isanpur",
+    "jodhpur",
+    "paldi",
+    "sola",
+    "bopal",
+    "southBopal",
+    "iscon",
+    "isconCrossRoad",
+    "sindhuBhavanRoad",
+    "gurukul",
+    "memnagar",
+    "ranip",
+    "motera",
+    "chandlodia",
+    "nikol",
+    "cgRoad",
+    "nehruNagar",
+    "driveInRoad",
+    "navrangpura",
+    "shivranjani",
+    "chandkheda"
+]
+const skills = [
+    "electrician",
+    "driver",
+    "gardener",
+    "lock",
+    "painter",
+    "construction",
+    "cook",
+    "beautician",
+    "salon",
+    "hairCare",
+    "massage",
+    "waxing",
+    "manicure",
+    "pedicure",
+    "facial",
+    "photographer",
+    "videoGraphy",
+    "eventOrganiser",
+    "decorator",
+    "mechanic",
+    "carMechanic",
+    "bikeMechanic",
+    "acService",
+    "washingMachineService",
+    "fridgeService",
+    "sofaCleaner",
+    "pestControl",
+    "waterPurifier",
+    "geyserService",
+    "cleaner",
+    "tableRepair",
+    "chairRepair",
+    "furnitureRepair",
+    "tvService",
+    "computerService",
+    "cctvService",
+    "keyLock",
+    "doorLock",
+    "makeupArtist",
+    "mehndiArtist",
+    "plumber",
+    "carpenter",
+    "blacksmith",
+    "handyman",
+    "roService",
+    "microwaveService"
+]
 
-export default function ServiceDetails() {
-    const router = useRouter();
-    const { id } = router.query;
-    let skill = id?.split("-")[0];
-    let location = id?.split("-")[1];
+export default function ServiceDetails({params}) {
+    // const router = useRouter();
+    // const { id } = router.query;
+    let skill = params?.split("-")[0];
+    let location = params?.split("-")[1];
 
-    const locations = [
-        "ahmedabad",
-        "maninagar",
-        "vastrapur",
-        "satellite",
-        "navrangpura",
-        "bodakdev",
-        "prahladnagar",
-        "ghatlodia",
-        "thaltej",
-        "naranpura",
-        "chandkheda",
-        "vastral",
-        "sarkhej",
-        "naroda",
-        "sabarmati",
-        "ambawadi",
-        "shahibaug",
-        "isanpur",
-        "jodhpur",
-        "paldi",
-        "sola",
-        "bopal",
-        "southBopal",
-        "iscon",
-        "isconCrossRoad",
-        "sindhuBhavanRoad",
-        "gurukul",
-        "memnagar",
-        "ranip",
-        "motera",
-        "chandlodia",
-        "nikol",
-        "cgRoad",
-        "nehruNagar",
-        "driveInRoad",
-        "navrangpura",
-        "shivranjani",
-        "chandkheda"
-    ]
-    const skills = [
-        "electrician",
-        "driver",
-        "gardener",
-        "lock",
-        "painter",
-        "construction",
-        "cook",
-        "beautician",
-        "salon",
-        "hairCare",
-        "massage",
-        "waxing",
-        "manicure",
-        "pedicure",
-        "facial",
-        "photographer",
-        "videoGraphy",
-        "eventOrganiser",
-        "decorator",
-        "mechanic",
-        "carMechanic",
-        "bikeMechanic",
-        "acService",
-        "washingMachineService",
-        "fridgeService",
-        "sofaCleaner",
-        "pestControl",
-        "waterPurifier",
-        "geyserService",
-        "cleaner",
-        "tableRepair",
-        "chairRepair",
-        "furnitureRepair",
-        "tvService",
-        "computerService",
-        "cctvService",
-        "keyLock",
-        "doorLock",
-        "makeupArtist",
-        "mehndiArtist",
-        "plumber",
-        "carpenter",
-        "blacksmith",
-        "handyman",
-        "roService",
-        "microwaveService"
-    ]
-    if(!skills.includes(skill) || !locations.includes(location)) {
-        skill = null;
-        location = null;
-    }
+    
+    // if(!skills.includes(skill) || !locations.includes(location)) {
+    //     skill = null;
+    //     location = null;
+    // }
 
     return (
         <>
 
-        {skill && location ? 
+        {params ? 
 
         <>
 
@@ -202,4 +203,34 @@ export default function ServiceDetails() {
         }
         </>
     )
+}
+
+export async function getStaticPaths() {
+    let paths = [];
+    skills.forEach(skill => {
+        locations.forEach(location => {
+            paths.push({params: {id: `${skill}-${location}`}});
+        })
+    })
+    return {
+        paths,
+        fallback: true
+    }
+}
+
+export async function getStaticProps({params}) {
+    let skill = params?.id?.split("-")[0];
+    let location = params?.id?.split("-")[1];
+    if(!skills.includes(skill) || !locations.includes(location)) {
+        return {
+            props: {
+                params: null
+            }
+        }
+    }
+    return {
+        props: {
+            params: params.id
+        }
+    }
 }
