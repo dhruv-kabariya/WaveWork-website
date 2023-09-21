@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function MainSection() {
     return (
-        <section id="#" className={`${styles['main-section']}`}>
+        <section className={`${styles['main-section']}`}>
             <Box component={'div'} sx={{ display: "flex", flexDirection: { xs: 'column', md: 'row' }, justifyContent: "center", alignItems: "center", columnGap: { xs: "0rem", md: "1rem" } }}>
                 <Box component={'div'} sx={{ display: "flex", flexDirection: "column", alignItems: "center", maxWidth: { xs: "95vw", md: "30vw" } }}>
                     <Typography variant="h2" component="h1" className={`${styles['main-section-writing']}`} sx={{ alignSelf: "flex-start" }}>
