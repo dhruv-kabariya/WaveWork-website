@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="keywords" content="nearby service providers, compare bids, household solutions, daily tasks, WaveWork" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="WaveWork" />
-
+        <meta name='canonical' href='https://wavework.in' />
         <meta property="og:title" content="Get Work Done with WaveWork - Your Trusted Platforms" />
         <meta property="og:description" content="Connect with nearby service providers on WaveWork. Compare bids, pick experts, and accomplish tasks efficiently." />
         <meta property="og:image" content="https://wavework.in/logo-icon.png" />
